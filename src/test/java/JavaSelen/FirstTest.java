@@ -1,38 +1,38 @@
 package JavaSelen;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.junit.Assert;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
 
+public class FirstTest extends Hooks {
 
-public class code {
-    public static void main(String[] args) {
+    @Test
+    public void firstTest() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.seleniumeasy.com/");
-        driver.manage().window().maximize();
+        String GenTitle = driver.getTitle();
+        Assert.assertTrue(GenTitle.equals("Learn Selenium with Best Practices and Examples | Selenium Easy"));
+        System.out.println("Title of website  " + GenTitle);
         WebElement textInput = driver.findElement(By.cssSelector(".form-control.form-text"));
         textInput.sendKeys("interview questions");
         WebElement Searchbutton = driver.findElement(By.cssSelector("div.input-group>span>button"));
         Searchbutton.click();
-
         List<WebElement> title = new ArrayList<>(driver.findElements(By.cssSelector(".container-fluid ol>li>h3")));
         String results;
-
 
         for (WebElement value : title) {
             System.out.println("Results--------  " + value.getText());
             results = value.getText();
             Assert.assertTrue(results.contains("interview questions"));
         }
-
-        driver.quit();
-
     }
-
 }
+
+
+
+
+
+

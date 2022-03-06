@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b125b2cf-176e-48c5-b8c9-ab009d29f347" name="Changes" comment="" />
+    <list default="true" id="b125b2cf-176e-48c5-b8c9-ab009d29f347" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaSelen/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaSelen/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaSelen/code.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaSelen/code.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +22,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25z2FOMkprgsyhhZYKnjMGPz45m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,10 +42,15 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration name="code" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSelen.code" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\intellijea\mavenSelenium\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FirstTest">
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mavenSelenium" />
       <extension name="coverage">
         <pattern>
@@ -44,13 +58,84 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="JavaSelen" />
+      <option name="MAIN_CLASS_NAME" value="JavaSelen.FirstTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaSelen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaSelen" />
+      <option name="MAIN_CLASS_NAME" value="JavaSelen.FirstTest" />
+      <option name="METHOD_NAME" value="FirstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.FirstTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaSelen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaSelen" />
+      <option name="MAIN_CLASS_NAME" value="JavaSelen.FirstTest" />
+      <option name="METHOD_NAME" value="FirstTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.FirstTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaSelen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaSelen" />
+      <option name="MAIN_CLASS_NAME" value="JavaSelen.FirstTest" />
+      <option name="METHOD_NAME" value="FirstTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaSelen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaSelen" />
+      <option name="MAIN_CLASS_NAME" value="JavaSelen.FirstTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.code" />
+        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.FirstTest.test1" />
+        <item itemvalue="JUnit.FirstTest.FirstTest2" />
+        <item itemvalue="JUnit.FirstTest.FirstTest1" />
+        <item itemvalue="JUnit.FirstTest.FirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -63,11 +148,24 @@
       <option name="presentableId" value="Default" />
       <updated>1646515493528</updated>
       <workItem from="1646515494749" duration="1490000" />
-      <workItem from="1646553984764" duration="12794000" />
+      <workItem from="1646553984764" duration="14996000" />
+      <workItem from="1646585054772" duration="121000" />
+      <workItem from="1646587053273" duration="4768000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
