@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b125b2cf-176e-48c5-b8c9-ab009d29f347" name="Changes" comment="" />
+    <list default="true" id="b125b2cf-176e-48c5-b8c9-ab009d29f347" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaSelen/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaSelen/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaSelen/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaSelen/Hooks.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\intellijea\mavenSelenium" />
       <recent name="C:\Users\User\Desktop\intellijea\mavenSelenium\src" />
     </key>
   </component>
@@ -145,7 +150,7 @@
       <workItem from="1646515494749" duration="1490000" />
       <workItem from="1646553984764" duration="14996000" />
       <workItem from="1646585054772" duration="121000" />
-      <workItem from="1646587053273" duration="5081000" />
+      <workItem from="1646587053273" duration="5292000" />
     </task>
     <servers />
   </component>
